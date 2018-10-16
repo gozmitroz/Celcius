@@ -24,3 +24,17 @@ float ground2Length;
 float r;
 float g;
 float b;
+
+Table airQuality;
+Table temp;
+Table sealvl;
+Table icelvl;
+
+int sealevel; 
+int ice; 
+int backgroundcolour; 
+int temperature_data; 
+int co2_data; 
+int year_counter; 
+
+int temperatureScroll;
