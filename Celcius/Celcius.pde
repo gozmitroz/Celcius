@@ -75,4 +75,14 @@ void draw() {
       sealevel = sealevel + 1;
     }
   }
+  
+  int gapLength = 0;
+  while (gapLength < 200)
+  {
+    gapLength++;
+    if(gapLength ==3)
+    {
+      ice = ice +1;
+    }  
+  }
 }
